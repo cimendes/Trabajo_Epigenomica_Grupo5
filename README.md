@@ -19,6 +19,6 @@ En este apartado se utilizaron 6 scripts:
 **1_5_Generar_ficheros_bed.sh**: este script permite generar los ficheros con formato BED de los segmentos de interés (cuyo estado mayoritario es el 9 y en los que además, la diferencia entre el estado 9 (mayoritario) y el siguiente más probable es mayor de 0.32). Los ficheros generados contienen 3 columnas:  
 1. Número de cromosoma. 
 2. Sitio (pb) de inicio del segmento. 
-3. Sitio (pb) de fin del segmento. 
+3. Sitio (pb) de fin del segmento.   
 **1_6_Interseccion_replicas.sh**: este script realiza la intersección entre los archivos (Estado 9 y filtrados según diferencia de probabilidad con el segundo estado > 0.32) de los monocitos 1 y 2 para cada cromosoma.  
 
