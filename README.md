@@ -1,5 +1,6 @@
 # Trabajo de Epigenómica - Grupo 5
-###  Máster de Bioinformática y Biología Computacional, Universidad Autónoma de Madrid, Curso Académido 2019-2020 
+###  Máster de Bioinformática y Biología Computacional, Universidad Autónoma de Madrid
+### Curso Académido 2019-2020 
 Análisis de estados de cromatina mediante segmentación: Multivariate Hidden Markov Model (ChromHMM). Este trabajo está centrado en el estado 9 - CTCF. 
 
 Autoras: **Silvia García Cobos, Rosalía Palomino Cabrera, Ana Rodríguez Ronchel, Lucía Sánchez García, Silvia Talavera Marcos**
@@ -22,4 +23,7 @@ En este apartado se utilizaron 6 scripts:
 3. Sitio (pb) de fin del segmento.  
 
 **1_6_Interseccion_replicas.sh**: este script realiza la intersección entre los archivos (Estado 9 y filtrados según diferencia de probabilidad con el segundo estado > 0.32) de los monocitos 1 y 2 para cada cromosoma.  
+
+
+### Apartado 2
 
