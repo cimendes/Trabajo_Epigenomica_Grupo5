@@ -9,7 +9,7 @@ Autoras: **Silvia García Cobos, Rosalía Palomino Cabrera, Ana Rodríguez Ronch
 Este repositorio contiene los scripts utilizados en los diferentes apartados del trabajo. 
 
 ### Apartado 1
-Obtener los segmentos que tengan el mismo estado en los dos replicados de monocitos.
+*Obtener los segmentos que tengan el mismo estado en los dos replicados de monocitos.*
 
 En este apartado se utilizaron 6 scripts:
 
@@ -27,12 +27,13 @@ En este apartado se utilizaron 6 scripts:
 
 ### Apartado 2
 
-Anotar los segmentos. Como mínimo, se deberá dar el porcentaje de segmentos que solapan con protein-coding genes en dicho cromosoma.
+*Anotar los segmentos. Como mínimo, se deberá dar el porcentaje de segmentos que solapan con protein-coding genes en dicho cromosoma.*
 
 
 ### Apartado 3
 
-Descargar los picos de DNase I en monocitos de ENCODE y calcular el porcentaje de solapamiento entre DNaseI-peaks y vuestros segmentos de trabajo. Usad el fichero wgEncodeOpenChromDnaseMonocd14Pk.narrowPeak.gz en:http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeOpenChromDnase/
+*Descargar los picos de DNase I en monocitos de ENCODE y calcular el porcentaje de solapamiento entre DNaseI-peaks y vuestros segmentos de trabajo. Usad el fichero wgEncodeOpenChromDnaseMonocd14Pk.narrowPeak.gz en:http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeOpenChromDnase/*
 
 En este apartado se utilizaron 3 scripts:  
+
 **3_solapamiento_E9.sh**: este script realiza la intersección 
