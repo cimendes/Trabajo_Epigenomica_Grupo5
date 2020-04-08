@@ -11,7 +11,7 @@ Este repositorio contiene los scripts utilizados en los diferentes apartados del
 ### Apartado 1
 *Obtener los segmentos que tengan el mismo estado en los dos replicados de monocitos.*
 
-En este apartado se utilizaron 6 scripts:
+En este apartado se utilizaron los siguientes scripts:
 
 **1_1_Filtrar_segmentos_E9.sh**: este script procesa los archivos "POSTERIOR" generados por ChromHMM y genera nuevos archivos con el mismo formato pero que contienen solo los segmentos asignados al estado 9.
 **1_2_Generar_grafica_densidad.ipynb**: este script permite ver la distribución de las diferencias entre la dos probabilidades de estado más altas asignadas a cada segmento por el programa ChromHMM (diseñado para analizar datos de ChIP-Seq). En este caso se llevará a cabo sobre archivos previamente filtrados con el script **1_1_Filtrar_segmentos_E9.sh** que contienen solo los segmentos cuyo estado más probable es el 9.  
@@ -36,7 +36,7 @@ En este apartado se utilizaron 6 scripts:
 
 *Descargar los picos de DNase I en monocitos de ENCODE y calcular el porcentaje de solapamiento entre DNaseI-peaks y vuestros segmentos de trabajo. Usad el fichero wgEncodeOpenChromDnaseMonocd14Pk.narrowPeak.gz en: http://hgdownload.cse.ucsc.edu/goldenpath/hg19/encodeDCC/wgEncodeOpenChromDnase/*
 
-En este apartado se utilizaron 3 scripts:  
+En este apartado se utilizaron los siguientes scripts:  
 
 **3_1_solapamiento_E9.sh**: este script realiza la intersección entre el archivo de segmentos con estado 9 y filtrados (diferencia de probabilidad con el segundo estado más probable > 0.32) y el archivo con segmentos de picos de DNasa I. Además calculamos a cuántos nucleotidos corresponden esos segmentos.  
 **3_2_filtro_y_solapamiento_todos.sh**: este script procesa los archivos con segmentos para todos los estados en los que la diferencia entre el estado mayoritario y el siguiente más probable es > 0.32.  
