@@ -8,8 +8,7 @@ AUTORAS:
   ###### Rosalía Palomino Cabrera
   ###### Ana Rodríguez Ronchel
   ###### Lucía Sánchez García
-  ###### Silvia Talavera Marcos 
-
+  ###### Silvia Talavera Marcos  
 
 Este repositorio contiene los scripts utilizados en los diferentes apartados del trabajo. 
 
