@@ -42,6 +42,10 @@ En este apartado se utilizaron los siguientes scripts:
 **3_2_filtro_y_solapamiento_todos.sh**: este script procesa los archivos con segmentos para todos los estados en los que la diferencia entre el estado mayoritario y el siguiente más probable es > 0.32.  
 **3_3_compare.py**: este script ordena los valores de cada línea en un archivo dado.  
 
+
+imagenes/script_flow.png
+
+
 ### Apartado 4
 
 *Visualizar (y mostrar) una región del genoma en el UCSC browser donde se vean al menos uno de vuestros segmentos (subid el track generado por ChromHMM) y la DNase I en todos los tipos celulares de ENCODE de sangre.*
