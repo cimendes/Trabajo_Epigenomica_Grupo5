@@ -3,7 +3,7 @@
 ### Curso Académido 2019-2020 
 Análisis de estados de cromatina mediante segmentación: *Multivariate Hidden Markov Model* (resultados con ChromHMM). Este trabajo está centrado en el estado 9 - CTCF. 
 
-Autoras: **Silvia García Cobos, Rosalía Palomino Cabrera, Ana Rodríguez Ronchel, Lucía Sánchez García, Silvia Talavera Marcos**
+Autoras: **Silvia García Cobos, Rosalía Palomino Cabrera, Ana Rodríguez Ronchel, Lucía Sánchez García, Silvia Talavera Marcos**.
 
 
 Este repositorio contiene los scripts utilizados en los diferentes apartados del trabajo. 
@@ -28,6 +28,8 @@ En este apartado se utilizaron 6 scripts:
 ### Apartado 2
 
 *Anotar los segmentos. Como mínimo, se deberá dar el porcentaje de segmentos que solapan con protein-coding genes en dicho cromosoma.*
+
+
 
 
 ### Apartado 3
@@ -64,5 +66,9 @@ En este apartado se utilizaron los siguientes scripts:
 Los siguientes archivos recogen todos los scripts utilizados:
 
 **6_1_metilacionADN.sh**: este script permite calcular el porcentaje (en segmentos y pb) de solapamiento de segmentos con estado 9 (en los dos monocitos) y filtrados (diferencia de probabilidad posterior con el segundo estado mas probable >0.32) con regiones hiper- e hipo-metiladas de monocitos del donante C001UY. Además, permite realizar la intersección de segmentos con estado 9 y filtrados, previamente solapados con picos de DNasa I (script *3_1_solapamiento_E9.sh*), con regiones hiper- e hipo-metiladas de monocitos del donante C001UY.  
-**6_2_6_2_anotacion_metilacionADN_CpG.R**: este script permite la ANOTACIÓN de islas CpG (regiones con alta concentración de citosinas y guaninas) y estructuras genéticas asociadas en segmentos con estado 9 (previamente filtrados y coincidentes en los dos monocitos) que solapan con regiones hiper- e hipo-metiladas de monocitos del donante C001UY. Utiliza el paquete en R annotatr (https://www.bioconductor.org/packages/release/bioc/html/annotatr.html).  
+**6_2_anotacion_metilacionADN_CpG.R**: este script permite la ANOTACIÓN de islas CpG (regiones con alta concentración de citosinas y guaninas) y estructuras genéticas asociadas en segmentos con estado 9 (previamente filtrados y coincidentes en los dos monocitos) que solapan con regiones hiper- e hipo-metiladas de monocitos del donante C001UY. Utiliza el paquete en R annotatr (https://www.bioconductor.org/packages/release/bioc/html/annotatr.html).  
+
+### Apartado 7 (*adicional*)
+
+
 
