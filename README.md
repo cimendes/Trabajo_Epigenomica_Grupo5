@@ -33,7 +33,9 @@ En este apartado se utilizaron los siguientes scripts:
 
 *Anotar los segmentos. Como mínimo, se deberá dar el porcentaje de segmentos que solapan con protein-coding genes en dicho cromosoma.*
 
+Los scripts utilizados fueron:
 
+**2_1_Anotaciones_E9.R**: este script permite anotar los segmentos con Estado 9 previamente seleccionados tras el filtrado (diferencia de probabilidad posterior con el segundo estado más probable > 0.32). Utiliza el paquete en R annotatr (https://www.bioconductor.org/packages/release/bioc/html/annotatr.html). Las anotaciones realizadas corresponden a *'hg19_cpgs', 'hg19_basicgenes', 'hg19_genes_intergenic', 'hg19_genes_intronexonboundaries', 'hg19_genes_cds'*.
 
 
 ### Apartado 3
