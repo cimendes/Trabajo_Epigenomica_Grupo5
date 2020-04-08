@@ -36,4 +36,32 @@ En este apartado se utilizaron 6 scripts:
 
 En este apartado se utilizaron 3 scripts:  
 
-**3_solapamiento_E9.sh**: este script realiza la intersección 
+**3_1_solapamiento_E9.sh**: este script realiza la intersección entre el archivo de segmentos con estado 9 y filtrados (diferencia de probabilidad con el segundo estado más probable > 0.32) y el archivo con segmentos de picos de DNasa I. Además calculamos a cuántos nucleotidos corresponden esos segmentos.  
+**3_2_filtro_y_solapamiento_todos.sh**: este script procesa los archivos con segmentos para todos los estados en los que la diferencia entre el estado mayoritario y el siguiente más probable es > 0.32.  
+**3_3_compare.py**: este script ordena los valores de cada línea en un archivo dado.  
+
+### Apartado 4
+
+*Visualizar (y mostrar) una región del genoma en el UCSC browser donde se vean al menos uno de vuestros segmentos (subid el track generado por ChromHMM) y la DNase I en todos los tipos celulares de ENCODE de sangre.*
+
+
+
+
+
+### Apartado 5
+
+*Búsqueda de motivos enriquecidos.*
+
+En este apartado se utilizaron los siguientes scripts:
+
+**5_1_from_bed_to_fasta.sh**: este script permite la conversión de los archivos .bed a .fasta para posteriormente llevar a cabo la búsqueda de motivos con el programa MEME (MEME-ChIP).  
+**5_2_Homer.sh.sh**: este script realiza la búsqueda de motivos en los segmentos incluidos en un archivo .bed mediante el programa findMotifsGenome.pl de Homer.
+
+### Apartado 6
+
+*Calcular el % de solapamiento con regiones hyper- (Metilación > 0.75) o hypo-metiladas (Metilación < 0.25) en monocitos disponibles en el DCC portal de BLUEPRINT. (http://dcc.blueprint-epigenome.eu/#/home) Ficheros BED pertenecientes al donante C001UY.*
+
+Los siguientes archivos recogen todos los scripts utilizados:
+
+**6_1_metilacionADN.sh**: este script permite calcular el porcentaje (en segmentos y pb) de solapamiento de segmentos con estado 9 (en los dos monocitos) y filtrados (diferencia de probabilidad posterior con el segundo estado mas probable >0.32) con regiones hiper- e hipo-metiladas de monocitos del donante C001UY. Ademas, permite realizar la interseccion de segmentos con estado 9 y filtrados, previamente solapados con picos de DNasa I (script *3_1_solapamiento_E9.sh*), con regiones hiper- e hipo-metiladas de monocitos del donante C001UY.  
+
